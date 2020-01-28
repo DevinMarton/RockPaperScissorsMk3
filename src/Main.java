@@ -78,7 +78,6 @@ public class Main extends javax.swing.JFrame {
                                 .addComponent(jLabel3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(Player_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(28, 28, 28)))
                         .addComponent(jButton1))
@@ -134,7 +133,7 @@ public class Main extends javax.swing.JFrame {
         computer = (int) Math.round(Math.random()*2+1);
 //        System.out.println(computer);
         
-        //Compares player and computer and directs them to the right screen with pictures
+        //Compares player and computer and directs them to the right screen
         if(playerChoice == 1 && computer == 1){
         this.setVisible(false);
         new Rock_Rock().setVisible(true);
